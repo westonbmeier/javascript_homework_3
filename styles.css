@@ -1,0 +1,33 @@
+.container{
+    margin: auto !important; 
+    margin-top: 15px !important;
+    margin-bottom: 15px !important; 
+    background-color: white !important; 
+    padding: 15px !important;
+    width: 100% !important; 
+    text-align: center;
+}
+
+.content{
+    border: solid 1px #777777; 
+    padding: 20px; 
+}
+
+h1 {
+    text-align: center;
+    margin: auto; 
+    background-color: lightgrey;
+    padding: 10px; 
+}
+
+#display{
+    width: 60%; 
+}
+
+#genbtn{
+    background-color: white;
+}
+
+#cpybtn{
+    background-color: gray; 
+}
