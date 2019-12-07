@@ -57,8 +57,9 @@ generateEl.addEventListener('click', () => {
         }
         if (upperChecked === false && lowerChecked === false && symbolsChecked === false && numberChecked === false){
          // console.log(upperChecked, lowerChecked, numberChecked, symbolsChecked); 
-            return; 
-             
+         alert("Please select boxes and password length")   
+         return; 
+            
         }
         }
     }
@@ -108,3 +109,4 @@ function getRandomSymbol() {
     return symbols[Math.floor(Math.random() * symbols.length)];
 }
 // console.log(getRandomSymbol()); 
+
